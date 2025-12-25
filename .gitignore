@@ -1,0 +1,16 @@
+# IDE (PyCharm / IntelliJ)
+.idea/
+inspectionProfiles/
+*.iml
+misc.xml
+modules.xml
+vcs.xml
+workspace.xml
+
+# Python
+__pycache__/
+venv/
+.venv/
+
+# OS
+.DS_Store
