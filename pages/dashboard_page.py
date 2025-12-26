@@ -6,7 +6,7 @@ class DashboardPage:
     def __init__(self, page):
         self.page = page
 
-        self.logout_button = page.locator("#submit")
+        self.logout_button = page.get_by_role("button", name="Log out")
 
     def logout(self):
         self.logout_button.click()
